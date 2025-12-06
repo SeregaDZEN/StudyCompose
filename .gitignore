@@ -1,0 +1,84 @@
+
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle-wrapper.jar
+
+
+# Local configuration
+local.properties
+
+# Log files
+*.log
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Navigation editor, caches, and workspace
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# External native build (CMake/NDK)
+.externalNativeBuild/
+.cxx/
+
+# Signing keys and sensitive files
+*.keystore
+*.jks
+*.key.properties
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# Captures (screenshots, recordings)
+captures/
+
+# Google Services (если используешь Firebase)
+google-services.json
+# Если iOS часть в Flutter / KMP
+GoogleService-Info.plist
+
+# Kotlin specific
+*.class
+*.kt~
+*.kts~
+*.tmp
+*.swp
+
+# Reports / Generated files
+reports/
+outputs/
+intermediates/
+generated/
+
+# ============================
+# Optional (удобно при сборках)
+# ============================
+
+# APKs / Bundles
+*.apk
+*.aab
+
+# Crashlytics / Analytics
+fabric.properties
+crashlytics-build.properties
+
+# Local test data
+/test-results/
+.idea/shelf/
+
+# JetBrains IDE plugin system
+.idea/httpRequests/
+
+# ============================
+# End of file
+# ============================
