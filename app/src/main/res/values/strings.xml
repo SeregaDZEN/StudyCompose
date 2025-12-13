@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ComposeTutorial</string>
+    <string name="enter_temp_celsius">Enter the temperature in °C</string>
+    <string name="convert">Convert</string>
 </resources>
