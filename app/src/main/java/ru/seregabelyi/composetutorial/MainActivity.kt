@@ -68,13 +68,13 @@ fun MainActivityContent() {
                     )
                 )
             )
-            .padding(16.dp)
+            .padding(8.dp)
     ) {
-        // Карточка с frosted glass, внутри которой весь UI
+
         FrostedSurface(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(16.dp)
+                .padding(8.dp)
         ) {
             Column(
                 verticalArrangement = Arrangement.spacedBy(12.dp),
@@ -148,8 +148,10 @@ fun Header(image: Int, description: String) {
 @Composable
 fun TemperatureText(celsius: Int) {
     val fahrenheit = (celsius.toDouble()) * 9 / 5 + 32
-    Text("$celsius°C  =  $fahrenheit°F",
+    Text(
+        "$celsius°C  =  $fahrenheit°F",
         style = MaterialTheme.typography.titleLarge,
-        color = MaterialTheme.colorScheme.primary)
+        color = MaterialTheme.colorScheme.primary
+    )
 }
 
